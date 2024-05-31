@@ -1,0 +1,28 @@
+.my-assets {
+    padding: 20px;
+    background-color: #2b2b3c;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .actions, .team-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #3b3b4f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1 1 calc(33% - 10px);
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #52527f;
+  }
+  

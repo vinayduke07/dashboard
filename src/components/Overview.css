@@ -1,0 +1,54 @@
+.overview {
+    padding: 20px;
+    background-color: #2b2b3c;
+    color: white;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    width: 252.76px;
+    height: 159.84px;
+    top: 344px;
+    left: 36.16px;
+    gap: 0px;
+    border-radius: 17.19px 0px 0px 0px;
+    border: 0.74px 0px 0px 0px solid white;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+  }
+  .card_name{
+    display: flex;
+    justify-content:space-between;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    
+  }
+  .card_money{
+font-size: 28px;
+font-weight: 600;
+line-height: 35.28px;
+text-align: left;
+
+  }
+
+  .card_bottum{
+    width: 254px;
+height: 57px;
+border-radius: 0px 0px 17.19px 17.19px;
+opacity: 0px;
+background: linear-gradient(248deg, #F2DEBC 0%, #407DF2 29.17%, #3ACDDE 56.55%, #6C25FB 93%);
+  }
+
+  .cord_bottum_title{
+    font-size: 14px;
+    padding: 10px 15px;
+  }

@@ -1,0 +1,25 @@
+/* src/components/News.css */
+.news {
+    padding: 20px;
+    background-color: #2b2b3c;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .news h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .news h2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black; /* You can change the color as needed */
+  }
+  
